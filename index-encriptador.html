@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <script src="encriptador.js"></script>
+        <link rel="stylesheet" href="style.encript.css">
+        
+    </head>
+
+   
+    <body class="body">
+        
+        <main>
+
+            <div class="contenedor">
+
+                <div>
+                    <img class="logo" src="Logologo.png" alt="Logo de Alura">
+                </div>
+
+                <div class="posicion-caja">
+                    <textarea id="textTarea1" class="caja-de-texto" cols="32" rows="10" placeholder= "Ingrese el texto aquí"></textarea>
+                 </div>
+
+                 <div id="div1" .style="" class="imagen-encriptado">
+                    <img class="muneco" src="imagen-muneco.png" alt="Imagen ilustrativa">
+                    <h1 class="titulo-mensaje" >Ningún mensaje fue encontrado</h1>
+                    <p class="parrafo-estilo"> Ingrese el texto que desee encriptar o desencriptar</p>
+                 </div>
+
+                 <div id="div2" style="display:none" class="texto-encriptado">
+                    <textarea id="textTarea2" class="cajaTextoEncriptado" cols="24" rows="8"></textarea>
+                    <br>
+                    <button class="botonCopiar" onclick='copiarPortapapeles(document.getElementById("textTarea2"))'>Copiar</button>
+                </div>
+                
+            </div>
+
+            <div class="encriptar-desencriptar">
+                <p class="parrafo-alerta">Solo letras minúsculas y sin acentos</p>
+                <div class="contenedor-botones">
+                   <button class="boton-encriptar" onclick="main()" >Encriptar!</button>
+                   <button class="boton-desencriptar" onclick="desencriptado()">Desencriptar!</button>
+                </div>
+             </div>
+
+        </main>
+    </body>
+
+</html>

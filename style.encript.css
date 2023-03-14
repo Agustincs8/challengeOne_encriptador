@@ -1,0 +1,226 @@
+.body {
+    background:rgb(196, 209, 213);
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.contenedor {
+    display:flex;
+}
+.caja-de-texto {
+    font-size: 20px;
+    background:rgb(196, 209, 213);
+    color:darkblue; 
+    border:none;
+}
+.posicion-caja {
+    margin-top: 135px;
+    margin-left:45px;
+}
+.imagen-encriptado, .texto-encriptado {
+    background:white;
+    width:320px;
+    height:472px;
+    margin-left: 300px;
+    margin-top:18px;
+    border-radius: 12px;
+}
+.muneco {
+    width:300px;
+    height: 270px;
+    padding-left: 25px;
+    padding-top: 60px;
+}
+.cajaTextoEncriptado {
+    margin-top: 30px;
+    margin-left:17px;
+    color:darkblue;
+    font-size:20px;
+}
+.botonCopiar {
+    width: 170px;
+    height: 35px;
+    margin-top:185px;
+    margin-left: 72px;
+    background: rgb(221, 221, 223);
+    color:rgb(59, 59, 59);
+    font-size: 18px;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.botonCopiar:hover {
+    background:white;
+    color:black;
+}
+.titulo-mensaje {
+    font-size: 28px;
+    color:rgb(83, 82, 82);
+    font-weight: bold;
+    text-align: center;
+}
+.parrafo-estilo {
+    font-size:18px;
+    color:rgb(83, 82, 82);
+    text-align: center;
+}
+.parrafo-alerta {
+    font-size:18px;
+    color:rgb(83, 82, 82);
+}
+.parrafo-alerta:before {
+    content:"❕"
+}
+.contenedor-botones {
+    display:flex;
+    margin-top: 10px;
+}
+.encriptar-desencriptar {
+    margin-left:150px;
+}
+.boton-encriptar {
+    width: 200px;
+    height: 40px;
+    background: rgb(0, 0, 79);
+    color:white;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.boton-encriptar:hover {
+    background: rgb(51, 51, 230);
+}
+.boton-desencriptar {
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    background: rgb(179, 179, 186);
+    color:rgb(82, 82, 82);
+    font-size: 20px;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.boton-desencriptar:hover {
+    background: rgb(195, 193, 193);
+}
+@media screen and (max-width:480px) {
+    .contenedor, .contenedor-botones {
+        display: block;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .posicion-caja {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .caja-de-texto {
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0;
+    }
+    .muneco {
+        display:none;
+    }
+    .imagen-encriptado {
+        width: 90%;
+        height: 150px;
+        margin-left:20px;
+        margin-top: 0px;
+    }
+    .parrafo-estilo {
+        margin-top: 30px;
+    }
+    .encriptar-desencriptar {
+        margin-left: 10px;
+    }
+    .parrafo-alerta {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .boton-encriptar, .boton-desencriptar {
+        margin-left: 35px;
+        width: 80%;
+        height: 50px;
+    }
+    .boton-desencriptar {
+        margin-top: 5px;
+    }
+    .texto-encriptado {
+        margin-top: 0px;
+        margin-left: 22px;
+        height: 190px;
+    }
+    .cajaTextoEncriptado {
+        height: 20%;
+        border: none;
+    }
+    .botonCopiar {
+        margin-top: 80px;
+        width: 120px;
+        height: 28px;
+        margin-left: 100px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .contenedor {
+        display: block;
+    }
+    .caja-de-texto {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .imagen-encriptado {
+        margin-top: 0px;
+        width: 90%;
+        height: 50%;
+        margin-left: 40px;
+    }
+    .muneco {
+        display:none;
+    }
+    .titulo-mensaje {
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .parrafo-estilo {
+        margin-top: 70px;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .encriptar-desencriptar {
+        margin-left: 90px;
+    }
+    .parrafo-alerta {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    .contenedor-botones {
+        margin-top: 30px;
+    }
+    .boton-encriptar, .boton-desencriptar {
+        width: 310px;
+        height: 70px;
+    }
+    .texto-encriptado {
+        margin-top: 0px;
+        height: 280px;
+        width: 90%;
+        margin-left: 40px;
+    }
+    .cajaTextoEncriptado {
+        margin-left: 220px;
+        border:none;
+        font-size: 25px;
+    }
+    .botonCopiar {
+        margin-top: 10px;
+        margin-left: 270px;
+    }
+}
